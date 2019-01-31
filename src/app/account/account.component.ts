@@ -6,8 +6,8 @@ import { AccountsService } from '../accounts.service';
 @Component({
   selector: 'app-account',
   templateUrl: './account.component.html',
-  styleUrls: ['./account.component.css'],
-  providers: [LoggingService]
+  styleUrls: ['./account.component.css']
+  //providers: [LoggingService]
 })
 export class AccountComponent {
   @Input() account: {name: string, status: string};
@@ -20,6 +20,6 @@ export class AccountComponent {
 
     this.accounstService.updateStatus(this.id, this.account.status);
 
-    this.loggingService.logStatusChange(status);
+    //this.loggingService.logStatusChange(status);
   }
 }
