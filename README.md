@@ -1,6 +1,5 @@
 # Using Services & Dependency Injection
-
-![image](https://user-images.githubusercontent.com/2049888/52079524-23dea400-256c-11e9-9632-f3a78eba5a98.png)
+![image](https://user-images.githubusercontent.com/2049888/52170446-f38c3680-2720-11e9-93a6-95c50809454f.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
